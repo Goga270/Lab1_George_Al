@@ -56,7 +56,6 @@ public class RestaurantOrder implements Order{
         }
         return count;
     }
-
     @Override
     public double costTotal() {
         double count = 0;
@@ -65,7 +64,6 @@ public class RestaurantOrder implements Order{
         }
         return count;
     }
-
     @Override
     public String[] itemsNames(){
         String[] res = new String[size];
@@ -74,12 +72,10 @@ public class RestaurantOrder implements Order{
         }
         return res;
     }
-
     @Override
     public Item[] getItems() {
         return items;
     }
-
     @Override
     public Item[] sortedItemsByCostDesc() {
         for(int i=size-1;i>=1;i--){

@@ -46,6 +46,7 @@ public class NumberGenerator {
                 }
             }
         }
+        System.out.println(arrayList);
         Scanner in = new Scanner(System.in);
         boolean t;
         long beginTime, elapsedTime;

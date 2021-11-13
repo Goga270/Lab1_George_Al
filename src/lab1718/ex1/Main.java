@@ -6,8 +6,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
         String testStr = "abcdefghijklmnopqrstuv18340";
-        System.out.println("Является ли строка в testStr строкой 'abcdefghijklmnopqrstuv18340': "
-                + testStr.matches("abcdefghijklmnopqrstuv18340"));
+
 
         Pattern pattern = Pattern.compile("^abcdefghijklmnopqrstuv18340$");
         Matcher matcher = pattern.matcher(testStr);
